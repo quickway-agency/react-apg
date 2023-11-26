@@ -4,18 +4,18 @@ A small library for generating page content in a React project from JSON format.
 
 ## Installation
 
-Install `@quickway/react-apg` with npm or yarn:
+Install `react-autopg` with npm or yarn:
 
 #### Yarn
 
 ```bash
-  yarn add @quickway/react-apg
+  yarn add react-autopg
 ```
 
 #### NPM
 
 ```bash
-  npm i @quickway/react-apg
+  npm i react-autopg
 ```
 
 ## Basic usage
@@ -23,7 +23,7 @@ Install `@quickway/react-apg` with npm or yarn:
 `yourProject/app/sample-page.js`:
 
 ```jsx
-import { Page } from '@quickway/react-apg';
+import { Page } from 'react-autopg';
 import content from './content.json';
 
 function getClassNames(tag) {

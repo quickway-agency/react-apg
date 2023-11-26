@@ -9,7 +9,7 @@ export default defineConfig({
       /* eslint no-undef: "off" */
       entry: resolve(__dirname, 'lib/index.jsx'),
       formats: ['es'],
-      name: '@quickway/react-apg',
+      name: 'react-autopg',
       fileName: 'index',
     },
     rollupOptions: {
@@ -27,6 +27,6 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    exclude: ['@quickway/react-apg'],
+    exclude: ['react-autopg'],
   },
 });
