@@ -1,4 +1,4 @@
-# React APG
+# React AUTOPG — Auto Page Generator
 
 A small library for generating page content in a React project from JSON format.
 
